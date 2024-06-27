@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Inter", sans-serif;
+}
+.title {
+    font-weight: 900 !important;
+}
+
+.grid-cols-17 {
+    display: grid;
+    grid-template-columns: repeat(17, minmax(0, 1fr));
+}
+
+.bg-tremor-background-muted {
+    background-color: #fff !important;
+}
